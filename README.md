@@ -12,7 +12,7 @@ Originally built for SWEN 514 Cloud Engineering at RIT, this project has been ma
     - DynamoDB to store and access the results.
     - Cloudwatch to trigger daily automatic information updates.
   
-## Team 3c - Silver Lining
+## Project Team
 Brought to you by the brilliant minds of:
 - Sam Singh Anantha
 - Will Petersen
@@ -21,9 +21,10 @@ Brought to you by the brilliant minds of:
 
 ## Prerequisites
 - A working Terraform installation
-- Have an AWS account of some sort
+- An AWS account
 
 ## Project Setup and Deployment
+For more detailed instructions, follow this setup guide: https://docs.google.com/document/d/1sDXRY30Y4jjTaKsV6c29lMnGPSwWDhST/edit?usp=sharing&ouid=112494400192399827695&rtpof=true&sd=true
 1. Clone this respository and cd into it.
 2. Sign into your AWS Lab account and start a new session.
 3. Copy a valid EC2 key pair (.pem filetype only) into the root of the repository folder.
@@ -51,10 +52,7 @@ terraform destroy -var-file=env.tfvars
 ```
 
 ## Known bugs and disclaimers
-(It may be the case that your implementation is not perfect.)
-
-Document any known bug or nuisance.
-If any shortcomings, make clear what these are and where they are located.
+API time-outs have been known to occur when querying the Reddit API.
 
 ## License
 MIT License
