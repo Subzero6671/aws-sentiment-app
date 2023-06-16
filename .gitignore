@@ -1,0 +1,14 @@
+node_modules/
+package-lock.json
+.env
+.terraform
+terraform.*
+.terraform.*
+env.*
+output.zip
+get_subscribed_output.zip
+insert_output.zip
+invoke_search_output.zip
+*.pem
+async_output.zip
+get_results_output.zip

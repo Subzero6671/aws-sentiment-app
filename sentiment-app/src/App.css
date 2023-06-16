@@ -1,0 +1,44 @@
+.btn-primary{
+    background-color: #FF4500 ;
+    border-color: #FF4500;
+}
+
+.btn-outline-primary{
+    border-color: #FF4500;
+    color: #FF4500;
+}
+
+.btn-outline-primary:hover{
+    border-color: #FF4500;
+    background-color: #FF4500 ;
+}
+
+.text-reddit{
+    color: #FF4500;
+}
+
+
+.timeline {
+    border-left: 1px solid #ff44006e;
+    position: relative;
+    list-style: none;
+  }
+  
+  .timeline .timeline-item {
+    position: relative;
+  }
+  
+  .timeline .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+  }
+  
+  .timeline .timeline-item:after {
+    background-color: #FF4500;
+    left: -38px;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+  }
