@@ -1,5 +1,5 @@
 # Reddit Sentiment Analysis
-This repo contains a React application for querying and displaying Reddit topic sentiment data, as well as a Terraform script that, when run, will provision resources to properly host the app on an EC2 instance on your AWS account.
+This repo contains a React application for querying and displaying Reddit topic sentiment data as well as a Terraform script that, when run, will provision resources to properly host the app on an EC2 instance on your AWS account.
 Originally built for SWEN 514 Cloud Engineering at RIT, this project has been made public with permission from the instructor.
 **NOTE (6/16/23):** Unfortunately, recent changes to Reddit API pricing won't allow this to function anymore.
 - Built in Python 3.9 and React.
